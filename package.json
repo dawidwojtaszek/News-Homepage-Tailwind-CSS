@@ -1,0 +1,15 @@
+{
+  "name": "news-homepage-frontendmentor",
+  "version": "1.0.0",
+  "description": "solution to frontendmentor's chalange",
+  "main": "index.html",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.6"
+  }
+}
