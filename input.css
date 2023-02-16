@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.menu-background{
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.85;
+    
+}
+.menu-nav{
+    width:260px;
+    position: absolute;
+    top:0;
+    right:0;
+    
+    background-color: white;
+    height: 100%;
+}
+.close{
+    display: none;
+}
