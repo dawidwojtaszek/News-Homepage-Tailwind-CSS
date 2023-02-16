@@ -24,6 +24,9 @@ module.exports = {
       maxWidth: {
         1110: "1110px",
       },
+      width: {
+        100: "100px",
+      },
       fontSize: {
         "font-nav": "1.1rem",
       },

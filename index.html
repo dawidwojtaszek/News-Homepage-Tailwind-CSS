@@ -21,7 +21,10 @@
         <img src="/images/logo.svg" alt="logo" />
       </div>
       <nav class="hidden md:block">
-        <ul class="flex justify-between text-darkGrayishBlue text-font-nav">
+        <ul
+          class="flex justify-between text-darkGrayishBlue text-font-nav"
+          role="presentation"
+        >
           <li class="ml-10">
             <a href="# " class="hover:text-softRed">Home</a>
           </li>
@@ -40,6 +43,139 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <section
+        class="flex flex-col max-w-1110 mx-auto md:flex-row px-4"
+        role="presentation"
+      >
+        <article>
+          <picture>
+            <source
+              media="(max-width:768px)"
+              srcset="./images/image-web-3-mobile.jpg"
+            />
+            <img src="./images/image-web-3-desktop.jpg" alt="image-web" />
+          </picture>
+          <div class="flex flex-col md:flex-row md:pr-4" role="none">
+            <h1
+              class="text-veryDarkBlue text-5xl font-extrabold mt-9 md:max-w-[360px] md:mr-20"
+            >
+              The Bright Future of Web 3.0?
+            </h1>
+            <div class="flex flex-col md:max-w-xs" role="none">
+              <p class="text-darkGrayishBlue py-5">
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <button
+                class="bg-softRed text-white uppercase font-bold px-9 py-5 w-44 mb-8 hover:bg-veryDarkBlue"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+        </article>
+        <div
+          class="flex flex-col bg-veryDarkBlue py-7 px-6 text-white md:ml-8"
+          role="feed"
+        >
+          <h2 class="text-softOrange text-3xl font-extrabold">New</h2>
+          <article class="py-7">
+            <a href="#" class="hover:text-softOrange"
+              ><h3 class="font-bold text-lg mb-3">
+                Hydrogen VS Electric Cars
+              </h3></a
+            >
+
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </article>
+          <article class="py-7 border-grayishBlue border-t border-b">
+            <a href="#" class="hover:text-softOrange">
+              <h3 class="font-bold mb-3 text-lg">
+                The Downsides of AI Artistry
+              </h3></a
+            >
+            <p>
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </article>
+          <article class="py-7">
+            <a href="#" class="hover:text-softOrange">
+              <h3 class="font-bold mb-3 text-lg">Is VC Funding Drying Up?</h3>
+            </a>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section
+        class="flex flex-col items-start justify-start md:flex-row max-w-1110 mx-auto my-16 px-4 gap-12"
+        role="presentation"
+      >
+        <div class="flex justify-between gap-5" role="none">
+          <img src="/images/image-retro-pcs.jpg" alt="retro-pc" class="w-100" />
+
+          <div class="flex flex-col gap-1 py-0" role="none">
+            <span class="text-3xl text-grayishBlue font-extrabold">01</span>
+            <a
+              href="#"
+              class="text-xl text-veryDarkBlue font-bold hover:text-softRed"
+            >
+              <h4>Reviving Retro PCs</h4>
+            </a>
+
+            <p class="text-darkGrayishBlue text-sm">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-between gap-5" role="none">
+          <img
+            src="/images/image-top-laptops.jpg"
+            alt="top-laptops"
+            class="w-100"
+          />
+
+          <div class="flex flex-col gap-1 py-0" role="none">
+            <span class="text-3xl text-grayishBlue font-extrabold">02</span>
+            <a
+              href="#"
+              class="text-xl text-veryDarkBlue font-bold hover:text-softRed"
+            >
+              <h4>Top 10 Laptops of 2022</h4>
+            </a>
+
+            <p class="text-darkGrayishBlue text-sm">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-between gap-5" role="none">
+          <img
+            src="/images/image-gaming-growth.jpg"
+            alt="gaming-growth"
+            class="w-100"
+          />
+
+          <div class="flex flex-col gap-1 py-0" role="none">
+            <span class="text-3xl text-grayishBlue font-extrabold">03</span>
+            <a
+              href="#"
+              class="text-xl text-veryDarkBlue font-bold hover:text-softRed"
+            >
+              <h4>The Growth of Gaming</h4>
+            </a>
+
+            <p class="text-darkGrayishBlue text-sm">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
